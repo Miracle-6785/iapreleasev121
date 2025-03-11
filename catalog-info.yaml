@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "iapreleasev212"
+  description: "A component that is part of the DevSecOps catalog"
+  annotations:
+    
+    jenkins.io/job-full-name: iapreleasev212-org/iapreleasev212-job
+    
+
+    
+    sonarqube.org/project-key: default/iapreleasev212
+    
+
+    dependencytrack/project-id: ""
+    iap/app-info: ""
+    backstage.io/techdocs-ref: dir:.
+
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
